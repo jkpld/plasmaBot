@@ -78,10 +78,10 @@
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="translateObj.vi" Type="VI" URL="../../plasmaBot_Tests/translateObj.vi"/>
-		<Item Name="loadObjectInfo.vi" Type="VI" URL="../../loadObjectInfo.vi"/>
-		<Item Name="processedObjectInfo.ctl" Type="VI" URL="../../processedObjectInfo.ctl"/>
-		<Item Name="objectInfo.ctl" Type="VI" URL="../../objectInfo.ctl"/>
+		<Item Name="translateObj.vi" Type="VI" URL="../translateObj.vi"/>
+		<Item Name="loadObjectInfo.vi" Type="VI" URL="../loadObjectInfo.vi"/>
+		<Item Name="processedObjectInfo.ctl" Type="VI" URL="../processedObjectInfo.ctl"/>
+		<Item Name="objectInfo.ctl" Type="VI" URL="../objectInfo.ctl"/>
 		<Item Name="objectInfo.ini" Type="Document" URL="../objectInfo.ini"/>
 		<Item Name="MetalicHomeButton.ctl" Type="VI" URL="../MetalicHomeButton.ctl"/>
 		<Item Name="Equip_Data.ctl" Type="VI" URL="../controls/Equip_Data.ctl"/>
@@ -99,18 +99,18 @@
 		<Item Name="flipYZu32.vi" Type="VI" URL="../flipYZu32.vi"/>
 		<Item Name="startScanData.ctl" Type="VI" URL="../controls/startScanData.ctl"/>
 		<Item Name="scanInstrumentInfo.ctl" Type="VI" URL="../controls/scanInstrumentInfo.ctl"/>
-		<Item Name="xyGraphControl.ctl" Type="VI" URL="../../xyGraphControl.ctl"/>
+		<Item Name="xyGraphControl.ctl" Type="VI" URL="../xyGraphControl.ctl"/>
 		<Item Name="_acquireScanData_currentState.ctl" Type="VI" URL="../controls/_acquireScanData_currentState.ctl"/>
-		<Item Name="addObjToPlasmaBot.vi" Type="VI" URL="../../plasmaBot_Tests/addObjToPlasmaBot.vi"/>
-		<Item Name="findObj.vi" Type="VI" URL="../../plasmaBot_Tests/findObj.vi"/>
-		<Item Name="setCommandString.vi" Type="VI" URL="../../plasmaBot_Tests/setCommandString.vi"/>
-		<Item Name="setupScene.vi" Type="VI" URL="../../plasmaBot_Tests/setupScene.vi"/>
+		<Item Name="addObjToPlasmaBot.vi" Type="VI" URL="../addObjToPlasmaBot.vi"/>
+		<Item Name="findObj.vi" Type="VI" URL="../findObj.vi"/>
+		<Item Name="setCommandString.vi" Type="VI" URL="../setCommandString.vi"/>
+		<Item Name="setupScene.vi" Type="VI" URL="../setupScene.vi"/>
 		<Item Name="getPosInfo.vi" Type="VI" URL="../getPosInfo.vi"/>
 		<Item Name="getRelPositions.vi" Type="VI" URL="../getRelPositions.vi"/>
 		<Item Name="formatObjectInfo.vi" Type="VI" URL="../formatObjectInfo.vi"/>
 		<Item Name="formatPointData.vi" Type="VI" URL="../formatPointData.vi"/>
 		<Item Name="formatExtentData.vi" Type="VI" URL="../formatExtentData.vi"/>
-		<Item Name="visaQuery.vi" Type="VI" URL="../../plasmaBot_Tests/visaQuery.vi"/>
+		<Item Name="visaQuery.vi" Type="VI" URL="../visaQuery.vi"/>
 		<Item Name="pBot_waitForMoveFinish.vi" Type="VI" URL="../pBot_waitForMoveFinish.vi"/>
 		<Item Name="approxEqualDBL.vi" Type="VI" URL="../approxEqualDBL.vi"/>
 		<Item Name="approxEqualSGL.vi" Type="VI" URL="../approxEqualSGL.vi"/>
