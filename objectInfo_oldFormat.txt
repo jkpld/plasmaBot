@@ -1,0 +1,56 @@
+// Objects and required transformation
+Number of objects,3
+// ======================
+// object 1: lens mount
+// ======================
+name,lensMount
+location,lensMount.stl
+color,0.2,0.2,0.2,1
+center,-5.0000,47.2332,0.0000
+extent,17.5903,49.2332,35.7500
+movements,2
+ra,0,1,0,3.14159265359
+ta,25.4,12.7,38.1,0
+additional objects,1
+location,lensMount_lens.stl
+color,1,1,1,0.5
+allowed motion,XY
+mount on,breadBoardsss
+extra information,2
+paramValue,opticalAxisHeight,80
+pointOfInterest,focalPosition,-37.9,80,0
+// ======================
+// object 2: mirror mount with kinematic stage and parabolic mirror
+// ======================
+mirrorMount
+location,mirrorMount.stl
+color,0.2,0.2,0.2,1
+center,26.4154,59.4945,2.6244
+extent,53.7519,61.4945,38.3646
+movements,2
+ra,0,1,0,3.14159265359
+ta,25.4,12.7,38.1,0
+additional objects,0
+allowed motion,XY
+mount on,breadBoard
+extra information,1
+paramValue,opticalAxisHeight,80
+// =====================
+// object 3: plasma tube with shielding gas and mount
+// =====================
+plasmaTube_wShieldGas
+location,plasmaTubeMount_v3.stl
+color,0.2,0.2,0.2,1
+center,0.0000,75.0000,-11.4599
+extent,85.6501,77.0000,23.0401
+movements,1
+ta,15,17.5,77.9,0
+additional objects,2
+location,plasmaTube_wSheildingGas_Electrodes_andExtraMounting.stl
+color,0.3,0.3,0.1,1
+location,plasmaTube_wSheildingGas_v2.stl
+color,1,1,1,0.4
+allowed motion,Z
+mount on,yArm
+extra information,1
+pointOfInterest,tubeCenter,0,0,0
