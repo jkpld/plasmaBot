@@ -119,6 +119,12 @@
 		<Item Name="approxEqual.vi" Type="VI" URL="../approxEqual.vi"/>
 		<Item Name="read_pbot_vector.vi" Type="VI" URL="../read_pbot_vector.vi"/>
 		<Item Name="read_pbot_temperature.vi" Type="VI" URL="../read_pbot_temperature.vi"/>
+		<Item Name="getTravelRange.vi" Type="VI" URL="../getTravelRange.vi"/>
+		<Item Name="currentLocation.vi" Type="VI" URL="../currentLocation.vi"/>
+		<Item Name="string2vec.vi" Type="VI" URL="../string2vec.vi"/>
+		<Item Name="vec2string.vi" Type="VI" URL="../vec2string.vi"/>
+		<Item Name="poly1.vi" Type="VI" URL="../poly1.vi"/>
+		<Item Name="createScanPoints.vi" Type="VI" URL="../createScanPoints.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -253,6 +259,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="set_breadboard00_position.vi" Type="VI" URL="../set_breadboard00_position.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
