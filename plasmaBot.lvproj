@@ -125,6 +125,11 @@
 		<Item Name="vec2string.vi" Type="VI" URL="../vec2string.vi"/>
 		<Item Name="poly1.vi" Type="VI" URL="../poly1.vi"/>
 		<Item Name="createScanPoints.vi" Type="VI" URL="../createScanPoints.vi"/>
+		<Item Name="acquireSpectraWithOverSaturationProtection.vi" Type="VI" URL="../acquireSpectraWithOverSaturationProtection.vi"/>
+		<Item Name="Read Optical Spectrum (faster).vi" Type="VI" URL="../Read Optical Spectrum (faster).vi"/>
+		<Item Name="usb2000p_ExtraInfo.ctl" Type="VI" URL="../controls/usb2000p_ExtraInfo.ctl"/>
+		<Item Name="create_HDF5_file.vi" Type="VI" URL="../create_HDF5_file.vi"/>
+		<Item Name="HDF5_Dset_info.ctl" Type="VI" URL="../controls/HDF5_Dset_info.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -251,6 +256,7 @@
 				<Item Name="MGI Disable Enum (Disabled).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Disable Enum/MGI Disable Enum (Disabled).vi"/>
 				<Item Name="MGI Disable Enum (Enabled).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Disable Enum/MGI Disable Enum (Enabled).vi"/>
 				<Item Name="MGI Disable Enum (Small).vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Disable Enum (Small).vi"/>
+				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ocean Optics 2000 4000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Ocean Optics 2000 4000/Ocean Optics 2000 4000.lvlib"/>
