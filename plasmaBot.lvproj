@@ -130,6 +130,9 @@
 		<Item Name="usb2000p_ExtraInfo.ctl" Type="VI" URL="../controls/usb2000p_ExtraInfo.ctl"/>
 		<Item Name="create_HDF5_file.vi" Type="VI" URL="../create_HDF5_file.vi"/>
 		<Item Name="HDF5_Dset_info.ctl" Type="VI" URL="../controls/HDF5_Dset_info.ctl"/>
+		<Item Name="HDF5_Dset_4d.ctl" Type="VI" URL="../controls/HDF5_Dset_4d.ctl"/>
+		<Item Name="HDF5_Dset_3d.ctl" Type="VI" URL="../controls/HDF5_Dset_3d.ctl"/>
+		<Item Name="validateIntegrationTime.vi" Type="VI" URL="../validateIntegrationTime.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
