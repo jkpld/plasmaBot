@@ -9,7 +9,8 @@ pth = 'K:\Notre_Dame\RadLab\plasmaBot\';
 file = 'HeAir_testFineY_20170720_162310.h5';
 % file_name = 'K:\Google_Drive\NotreDame\RadiationLab\plasmaBot\PSF_20170716_211333.h5';
 file_name = [pth, file];
-
+file_name = 'K:\Notre_Dame\RadLab\spec2\PSF_20171107_133023.h5';
+%%
 
 dat2.Spec = h5read(file_name,'/data');
 dat2.X = h5readatt(file_name,'/data','X');
@@ -88,7 +89,7 @@ title('along optical axis')
 %%
 try close(fig4), catch, end
 fig4 = figure;
-rage = 4;
+rage = 1;
 tmp = squeeze(sum(dat2.B(:,:,rage),3));
 tmp = tmp-min(tmp(:));
 tmp = tmp/max(tmp(:));

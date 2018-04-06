@@ -133,6 +133,8 @@
 		<Item Name="HDF5_Dset_4d.ctl" Type="VI" URL="../controls/HDF5_Dset_4d.ctl"/>
 		<Item Name="HDF5_Dset_3d.ctl" Type="VI" URL="../controls/HDF5_Dset_3d.ctl"/>
 		<Item Name="validateIntegrationTime.vi" Type="VI" URL="../validateIntegrationTime.vi"/>
+		<Item Name="usb2000Aquire.vi" Type="VI" URL="../usb2000Aquire.vi"/>
+		<Item Name="usb2000SetAcquireTime.vi" Type="VI" URL="../usb2000SetAcquireTime.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
